@@ -8,6 +8,17 @@ body {
   line-height: 1.7;
 }
 
+.profile-pic {
+  display: block;
+  margin: 0 auto 1.5em auto;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #2563eb;
+  box-shadow: 0 2px 8px rgba(40,40,60,0.12);
+}
+
 header {
   background: #222;
   color: #fff;
